@@ -76,7 +76,7 @@ export const AboutSection = () => {
                   <h4 className="font-semibold text-lg">Content Creater</h4>
                   <p className="text-muted-foreground">
                     writing articles, making TikTok videos, taking Instagram
-                    photos, to building website content, YouTube, podcasts,...
+                    photos, to building website content, YouTube, podcasts,@.
                   </p>
                 </div>
               </div>

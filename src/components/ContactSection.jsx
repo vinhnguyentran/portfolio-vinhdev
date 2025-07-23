@@ -8,7 +8,7 @@ import {
   Send,
   Twitter,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import { useState } from "react";
 
@@ -117,7 +117,7 @@ export const ContactSection = () => {
                     name="name"
                     required
                     className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary"
-                    placeholder="Vinh Nguyen..."
+                    placeholder="Vinh Nguyen@."
                   />
                 </div>
                 <div>
@@ -148,7 +148,7 @@ export const ContactSection = () => {
                     name="message"
                     required
                     className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outlind-hidden focus:ring-2 focus:ring-primary resize-none"
-                    placeholder="I have some ideas..."
+                    placeholder="I have some ideas@."
                   />
                 </div>
                 <button
@@ -158,7 +158,7 @@ export const ContactSection = () => {
                     "cosmic-button w-full flex items-center justify-center gap-2"
                   )}
                 >
-                  {isSubmiting ? "Sending..." : "Send Message"}
+                  {isSubmiting ? "Sending@." : "Send Message"}
                   <Send size={16} />
                 </button>
               </form>
