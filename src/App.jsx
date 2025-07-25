@@ -9,7 +9,7 @@ function App() {
     <Toaster/>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home/>}/>
+          <Route path="/portfolio-vinhdev" element={<Home/>}/>
           
           <Route path='*' element={<NotFound/>}/>
          
